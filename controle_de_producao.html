@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Agricultura Familiar</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+		<a class="logo" href="#home">
+              <img src="logo.agro.png" />
+		</a>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="index.html">Inicio</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+    <div class="body-li">
+        <div class="box">
+            <form action="" class="form-li">
+                <fieldset>
+                    <legend><b>Controle de Produção</b></legend>
+                    <br>
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Modelo Produtivo:</label>
+                        <input type="text" name="nome" id="ModeloP" class="inputUser">
+                    </div>
+    
+                    <div>
+                        <label for="nome" class="label-input" class="inputbox" id="databorda">Categoria de Produção:</label>
+                        <input type="text" name="nome" id="CategoriaP" class="inputUser">
+
+                        <label for="data_inicio">Data de Inicio:</label>
+                        <input type="date" name="data_inicio" id="data">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Tipo de Cultivo:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Área Plantada:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Quantidade de Planta:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser">
+
+                        <label for="nome" class="label-input">Quantidade de Sementes:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor da Unidade:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Fertilizante:</label>
+                        <input type="text" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Tipo:</label>
+                        <input type="text" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Quant.:</label>
+                        <input type="number" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor da Unidade:</label>
+                        <input type="number" name="nome" id="quatrolinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Defensivo:</label>
+                        <input type="text" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Tipo:</label>
+                        <input type="text" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Quant.:</label>
+                        <input type="number" name="nome" id="quatrolinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor da Unidade:</label>
+                        <input type="number" name="nome" id="quatrolinhas" class="inputUser" placeholder="R$">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Quantidade de Agua Usada:</label>
+                        <input type="number" name="nome" id="nome" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo de irrigação:</label>
+                        <input type="number" name="nome" id="nome" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Tipo de Manejo do Solo:</label>
+                        <input type="text" name="nome" id="ModeloP" class="inputUser">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Preparo do Solo:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor Investido:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Análise de Solo:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo de Análise:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Pratica de Conservação de Solo:</label>
+                        <input type="text" name="nome" id="ModeloP" class="inputUser">
+                    </div>
+    
+                    <div>
+                        <label for="data_colheita" id="databorda">Data de Colheita:</label>
+                        <input type="date" name="data_colheita" id="data">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Quantidade Produzida:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Quantidade Vendida:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor da Unidade:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Tipo de Armazenamento:</label>
+                        <input type="text" name="nome" id="duaslinhasG" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo do Armazenamento:</label>
+                        <input type="number" name="nome" id="duaslinhasG" class="inputUser" placeholder="R$">        
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Custo de Mão de Obra:</label>
+                        <input type="number" name="nome" id="duaslinhasG" class="inputUser" placeholder="R$">
+                        
+                        <label for="nome" class="label-input">Custo de Manutenção de Equipamento:</label>
+                        <input type="number" name="nome" id="duaslinhasG" class="inputUser" placeholder="R$">
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Custo de Energia:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                        
+
+                        <label for="nome" class="label-input">Custo de Transporte:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Registro de Certificação:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo de Certificação:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">   
+                    </div>
+    
+                    <h1 class="sub-legend"><b>Produção de Animais</b></h1>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Tipo de Animal:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Quant.:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Alimentação:</label>
+                        <input type="text" name="nome" id="treslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Quant.:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Valor da Unidade:</label>
+                        <input type="number" name="nome" id="treslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Saúde do Animal:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo Por Animal:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Tipo de Produção:</label>
+                        <input type="text" name="nome" id="ModeloP" class="inputUser">
+                    </div>
+    
+                    <div>
+                        <label for="data_venda" id="databorda">Data da Venda:</label>
+                        <input type="date" name="data_venda" id="data">
+
+                            <div class="inputbox">
+                                <label for="nome" class="label-input">Quantidade Vendida:</label>
+                                <input type="number" name="nome" id="duaslinhas" class="inputUser">
+                                
+                                <label for="nome" class="label-input">Valor da Unidade:</label>
+                                <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$"> 
+                            </div>
+                    </div>
+    
+                    <div class="inputbox">
+                        <label for="nome" class="label-input">Certificação:</label>
+                        <input type="text" name="nome" id="duaslinhas" class="inputUser">
+                        
+                        <label for="nome" class="label-input">Custo da Certificação:</label>
+                        <input type="number" name="nome" id="duaslinhas" class="inputUser" placeholder="R$">
+                    </div>
+    
+                    <br>
+
+                    <div class="inputbox">
+                        <label for="nome" class="label-input" id="centralizar">Observações Gerais:</label>
+                        <br>
+                        <input type="text" name="nome" id="Observacoes" class="inputUser">
+                    </div>
+    
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+  </body>
