@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="pt-br">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciando os trabalhos</title>
-</head>
-<body>
-    <h1>Sistema de Gestão para Agricultura Familiar</h1>
-</body>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Agricultura Familiar</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+  </head>
+    <body>
+	  
+        <div class="container">
+
+	<header>
+		<a class="logo" href="#home">
+              <img src="logo.agro.png" />
+		</a>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">Inicio</a></li>
+			<li><a class="nav-link" href="#projects">Funcionalidades</a></li>
+			<li><a class="nav-link" href="#contact">Contato</a></li>
+			<li><a class="nav-link" href="login.html">Entrar</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter"></div>
+		 <section class="intro">
+		  <h3>Gestão Agricultura Familiar.<hr></h3>
+		  <p>conheça nossa ferramenta de gestão de produção.</p>
+		  <p>Criada para atender as demandas do pequeno agricultor familiar.</p>
+			 
+		 </section> 
+	  </div>  
+		
+	  <!--───────────────Projects───────────────-->
+	  <div id="projects"> 
+		 <h3>Funcionalidades Disponíveis.<hr></h3>
+		  <div class="work-box">
+		  <div class="work">
+		<!--───────────────card───────────────-->
+			<div class="card">
+			    <img class="work-img" src="controle_de_producao.png">
+			    <a href="controle_de_producao.html"> <!--Link to project-->
+				<div class="work-content">Controle de Produção.</div></a>
+            </div>
+			<div class="card">
+			    <img class="work-img" src="custo_beneficio.png">
+				<a href="custo_beneficio.html"> <!--Link to project-->
+				<div class="work-content">Custo beneficio.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="analise_investimento.png">
+				<a href="analise_investimento.html"> <!--Link to project-->
+				<div class="work-content">Analise de Investimento.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="controle_pragas.png">
+				<a href="controle_pragas.html"> <!--Link to project-->
+				<div class="work-content">Controle de Pragas.</div></a>
+            </div> 
+			<div class="card">
+			    <img class="work-img" src="custo_oportunidade.png">
+				<a href="custo_oportunidade.html"> <!--Link to project-->
+				<div class="work-content">Custo de Oportunidade.</div></a>
+            </div>
+			<div class="card">
+			    <img class="work-img" src="meta_crescimento.png">
+				<a href="meta_crescimento.html"> <!--Link to project-->
+				<div class="work-content">Metas de Crescimento.</div></a>
+            </div> 	  
+		  </div>
+		  </div>
+	  </div>
+		 
+		<!--──────────────Contact────────────────-->
+	  <div id="contact">
+		  <!--────social media links─────-->
+		   <h3>Contato.<hr></h3>
+		   <p>Entre em contato conosco, ou saiba mais</p>
+		   <p>atráves de uma de nossas midias sociais.</p>
+		    <div class="social-media">
+			  <a href="#" target="_blank"><i class='fab fa-github'></i></a>
+			  <a href="#" target="_blank"><i class='fab fa-whatsapp'></i></a>
+			  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+		    </div>
+		  </div>
+
+	</main>
+	  <footer class="copyright">© 2024 
+		  <a href="https://repl.it/@lilykhan" target="_blank"> Agricultura Familiar.</a>
+     </footer>
+	  
+  </div> 
+  </body>
 </html>
