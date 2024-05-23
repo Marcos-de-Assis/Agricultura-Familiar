@@ -18,7 +18,10 @@ from django.urls import path
 from .views import analise_custo_beneficio, meta_producao, custo_oportunidade
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('analise_investimento/', include('analise_investimento.urls')),
     path('analise-custo-beneficio/', analise_custo_beneficio, name='analise_custo_beneficio'),
     path('meta-producao/', meta_producao, name='meta_producao'),
     path('custo-oportunidade/', custo_oportunidade, name='custo_oportunidade'),
 ]
+
