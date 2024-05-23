@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="logo.agro.png" alt="Logo">
+        </a>
+        <nav>
+            <ul class="nav-bar">
+                <li><a class="nav-link active" href="index.html">Início</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Perfil do Usuário</h1>
+            <form action="/update_profile" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nome_completo">Nome Completo:</label>
+                    <input type="text" id="nome_completo" name="nome_completo" required>
+                    
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                    
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" required>
+                    
+                    <label for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                    
+                    <label for="tam_propriedade">Tamanho da Propriedade:</label>
+                    <input type="text" id="tam_propriedade" name="tam_propriedade" required>
+                    
+                    <label for="tipo_producao">Tipo de Produção:</label>
+                    <input type="text" id="tipo_producao" name="tipo_producao" required>
+                    
+                    <label for="produto_principal">Produto Principal:</label>
+                    <input type="text" id="produto_principal" name="produto_principal" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Configuração da Conta</legend>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="nova_senha">Nova Senha:</label>
+                    <input type="password" id="nova_senha" name="nova_senha">
+                    
+                    <label for="confirmar_senha">Confirmar Senha:</label>
+                    <input type="password" id="confirmar_senha" name="confirmar_senha">
+                </fieldset>
+                <button type="submit">Salvar</button>
+            </form>
+            <div class="button-container">
+                <a href="analise_investimento.html" class="button">Análise de Investimento</a>
+                <a href="custo_beneficio.html" class="button">Custo Benefício</a>
+                <a href="custo_oportunidade.html" class="button">Custo Oportunidade</a>
+                <a href="controle_pragas.html" class="button">Controle de Pragas</a>
+                <a href="controle_producao.html" class="button">Controle de Produção</a>
+                <a href="index.html" class="button logout">Sair</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

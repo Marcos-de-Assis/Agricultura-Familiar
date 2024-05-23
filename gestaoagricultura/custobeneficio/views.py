@@ -1,8 +1,8 @@
 # Create your views here.
 from django.shortcuts import render
 from django.http import JsonResponse
-from .models import Projeto # Importe o modelo do projeto, se aplicável
-from .utils import analise_custo_beneficio # Importe a função de análise de custo benefício
+from .models import Projeto
+from .utils import analise_custo_beneficio
 
 def analise_custo_beneficio_view(request):
     if request.method == 'POST':

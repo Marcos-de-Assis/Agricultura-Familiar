@@ -13,21 +13,20 @@ def analise_custo_beneficio(proj_existent, dat_inicio_proj_existent, invest_proj
 
     return diferenca_custo, rec_liquida
 
-# Exemplo de uso da função
-proj_existent = input("Digite o nome do projeto existente: ")
-dat_inicio_proj_existent = input("Digite a data de início do projeto existente (no formato 'dd-mm-aaaa'): ")
-invest_proj_existent = float(input("Digite o valor do recurso usado para implantar o projeto existente: "))
-cust_mensal_proj_existent = float(input("Digite o custo mensal do projeto existente: "))
-rec_mensal_proj_existent = float(input("Digite a receita mensal do projeto existente: "))
+proj_existent = input("Nome do projeto existente: ")
+dat_inicio_proj_existent = input("Início do projeto existente (no formato 'dd-mm-aaaa'): ")
+invest_proj_existent = float(input("Valor do recurso usado para implantar o projeto: "))
+cust_mensal_proj_existent = float(input("Custo mensal do projeto existente: "))
+rec_mensal_proj_existent = float(input("Receita mensal do projeto existente: "))
 
-novo_implement = input("Digite o nome do implemento que será implantado: ")
-dat_inicio_implement = input("Digite a data de início da mudança (no formato 'dd-mm-aaaa'): ")
-invest_implement = float(input("Digite o valor de investimento do implemento: "))
-cust_mensal_nov_implement = float(input("Digite o custo mensal com o novo implemento: "))
-rec_estimada_mensal = float(input("Digite a nova receita estimada mensal: "))
-temp_retorno = int(input("Digite o tempo de retorno sobre o capital investido (em meses): "))
+novo_implement = input("Nome do implemento que será implantado: ")
+dat_inicio_implement = input("Data de início da mudança (no formato 'dd-mm-aaaa'): ")
+invest_implement = float(input("Valor de investimento do implemento: "))
+cust_mensal_nov_implement = float(input("Custo mensal com o novo implemento: "))
+rec_estimada_mensal = float(input("Nova receita estimada mensal: "))
+temp_retorno = int(input("Tempo de retorno sobre o capital investido (em meses): "))
 
-diferenca_custo, rec_liquida = analise_custo_beneficio(proj_existent, dat_inicio_proj_existent, invest_proj_existent, cust_mensal_proj_existent, rec_mensal_proj_existent, novo_implement, dat_inicio_implement, invest_implement, cust_mensal_nov_implement, rec_estimada_mensal, temp_retorno)                                                      
+diferenca_custo, rec_liquida = analise_custo_beneficio(proj_existent, dat_inicio_proj_existent, invest_proj_existent, cust_mensal_proj_existent, rec_mensal_proj_existent, novo_implement, dat_inicio_implement, invest_implement, cust_mensal_nov_implement, rec_estimada_mensal, temp_retorno)
 
 print("Impacto nos custos:", diferenca_custo)
 print("Receita líquida mensal:", rec_liquida)
